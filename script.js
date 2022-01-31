@@ -1,6 +1,5 @@
 const contem = /[A-Z0-9áéíóúÁÉÍÓÚãÃõÕ]/g;
 const botoes= document.querySelectorAll(".btn");
-//let texto = "";
 botoes[0].onclick = codifica;
 botoes[1].onclick = decodifica;
 botoes[2].onclick = copia;
